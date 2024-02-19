@@ -1,0 +1,115 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.cover-photo {
+    width: 100%;
+    height: 33.33vh;
+    /* height: 800px; */
+    /* object-fit:cover; */
+    background: url('../images/img_20.jpg') center/cover; /* Set the path to your cover photo */
+     /* Ensure the background image fits within the container */
+    background-position: center; /* Center the background image */
+    background-size: contain; /* Ensure the background image fits within the container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+}
+
+/* Style for the profile photo */
+.profile-photo {
+    /* border-radius: 30%; */
+    overflow: hidden;
+    margin-top: -80px; /* Adjust the margin-top to position the profile photo */
+    margin-left: 20px; /* Adjust the margin-left to position the profile photo */
+}
+
+.profile-photo img {
+    width: 100px; /* Adjust the width of the profile photo */
+    height: 100px; /* Adjust the height of the profile photo */
+    object-fit: cover;
+}
+
+.pagewrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.top-banner {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.featured-images {
+    margin-top: 20px;
+}
+
+.container-featured {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.featured {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.featured-img {
+    background-color: #ddd;
+    height: 200px;
+}
+
+.topic-one,
+.topic-two {
+    margin-top: 20px;
+}
+
+.topic-one-img,
+.topic-two-img {
+    background-color: #ddd;
+    height: 200px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
