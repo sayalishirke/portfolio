@@ -13,7 +13,7 @@ body {
     height: 33.33vh;
     /* height: 800px; */
     /* object-fit:cover; */
-    background: url('../images/img_20.jpg') center/cover; /* Set the path to your cover photo */
+    background: url('../images/img_22.jpg') center/cover; /* Set the path to your cover photo */
      /* Ensure the background image fits within the container */
     background-position: center; /* Center the background image */
     background-size: contain; /* Ensure the background image fits within the container */
@@ -30,15 +30,18 @@ body {
 }
 
 .profile-photo img {
-    width: 100px; /* Adjust the width of the profile photo */
-    height: 100px; /* Adjust the height of the profile photo */
+    width: 150px; /* Adjust the width of the profile photo */
+    height: 150px; /* Adjust the height of the profile photo */
     object-fit: cover;
+    border-radius: 30rem;
+
 }
 
 .pagewrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color:rgb(248, 244, 221);
 }
 
 .top-header {
@@ -63,11 +66,12 @@ body {
 
 .nav-bar li {
     margin-right: 20px;
+    display: flex;
 }
 
 .nav-bar a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
 }
 
 .main {
@@ -84,10 +88,23 @@ body {
     margin-bottom: 20px;
 }
 
+.container-featured img{
+    width: 75%;
+    height: 85%;
+}
 .featured {
     flex: 1;
     margin-right: 10px;
     text-align: center;
+    align-items: center
+}
+
+.featured p{
+    font-size: 28px; /* or any other desired font size */
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .featured-img {
@@ -112,4 +129,7 @@ body {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+.footer a:visited {
+    color: #fff;
 }

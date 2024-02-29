@@ -51,7 +51,7 @@ textarea {
 }
 
 button {
-    background-color: #333;
+    /* background-color: #333; */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -59,8 +59,23 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #555;
+.contact-info {
+    /* display: flex; */
+    justify-content: space-around;
+    
+}
+
+.contact-info div {
+    text-align: center;
+    height: 100px;
+    background-color:rgb(248, 244, 221);
+}
+
+.pagewrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(248, 244, 221);
 }
 
 .footer {
